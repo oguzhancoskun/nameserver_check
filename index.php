@@ -25,7 +25,7 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	<title>NameServer Checked - OYAS</title>	
+	<title>NameServer Check</title>	
 
 	</head>
 	<body>
