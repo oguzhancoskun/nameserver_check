@@ -56,7 +56,7 @@ foreach ($conn->query('SELECT domain,nameserver FROM dns_list') as $row) {
 	}
 }
 if($ss>0){
- $to = 'sunucu@ozguryazilim.com.tr';
+ $to = '<mail_address>';
  $subject = 'Name Server Control Info Message (Weekly Report)';
  mail($to,$subject,$content);
 }
