@@ -1,0 +1,22 @@
+Nameserver Check Tool
+
+Alan adlarının nameserver adreslerinin değişimini kontrol eden uygulama-cık.
+
+*Gereksinimler
+-MySQL 5.5>
+-PHP 5.4>
+
+*Kurulum
+-Mysql de database ve tablo oluşturmamız gerekir.
+-Tabloda id(int),domain(varchar),nameserver(varchar) adlı sütunlar olması gerekir.
+-ns.php ve index.php dosyalarında ilgili database connection satırlarını güncelleyiniz.
+
+*index.php
+
+Domain adreslerinin nameserver kontrollerinde index.php sayfasından yeni domain adresi ekleyebiliriz. Aynı domain adreslerini ikinci defa ekleyip eklemediğinizi kontrol ediyor. Her domain bir kere ekleniyor. 
+
+*ns.php
+
+cron yada elle dürterek çalıştırabileceğiniz ns.php dosyası database e kayıtlı alan adlarını sorgular ve nameserverleri databasedeki halleriyle karşılaştırır. Eğer değişen nameserverlar varsa ilgili domain adreslerini sunucu@ozguryazilim.com.tr adresine mail atar. 
+
+v.1.1.0
