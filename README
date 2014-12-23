@@ -10,6 +10,7 @@ Alan adlarının nameserver adreslerinin değişimini kontrol eden uygulama-cık
 -Mysql de database ve tablo oluşturmamız gerekir.
 -Tabloda id(int),domain(varchar),nameserver(varchar) adlı sütunlar olması gerekir.
 -ns.php ve index.php dosyalarında ilgili database connection satırlarını güncelleyiniz.
+-mail adresinizi ns.php de alt satırda tanımlayınız. cron dürtüldüğünde olacak değişikliklerden mail yoluyla bu şekilde haberdar olabilirsiniz.
 
 *index.php
 
