@@ -20,4 +20,4 @@ Domain adreslerinin nameserver kontrollerinde index.php sayfasından yeni domain
 
 cron yada elle dürterek çalıştırabileceğiniz ns.php dosyası database e kayıtlı alan adlarını sorgular ve nameserverleri databasedeki halleriyle karşılaştırır. Eğer değişen nameserverlar varsa ilgili domain adreslerini tanımladığınız mail adresine mail atar. 
 
-v.1.1.0
+v.1.1.0 - alpha
